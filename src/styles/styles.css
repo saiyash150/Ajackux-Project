@@ -1,0 +1,58 @@
+body {
+    font-family:  sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding-top: 20px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .card-title {
+    color: #343a40; 
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d; 
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-warning {
+    color: #ffffff;
+    background-color: #ffc107;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+  .success-msg{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+  }

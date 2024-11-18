@@ -47,8 +47,10 @@ const UserForm = () => {
     try {
       if (id) {
         await editUser(id, formData);
+        alert('User updated successfully.');
       } else {
-        await addUser(formData);
+        await addUser(formData)
+        alert('User added successfully.');
       }
       navigate('/');
     } catch (err) {
